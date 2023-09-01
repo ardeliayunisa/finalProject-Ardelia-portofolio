@@ -17,14 +17,6 @@ body {
     left: 0;
     z-index: 10;
   }
-
-  @media (max-width: 768px) {
-    .navbar .fixed-top {
-      position: static; /* Ubah position menjadi static untuk menghapus position: fixed */
-      background-color: #333; /* Atur ulang warna latar belakang sesuai kebutuhan */
-      /* Properti lainnya sesuai kebutuhan untuk tampilan mobile */
-    }
-  }
   
 .navbar-text img{
     height: 2.1rem;
