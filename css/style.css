@@ -1,20 +1,284 @@
 /* styles.css */
 
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('/images/gambar.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
+
 }
 
-.containerFirst {
-    background-color: rgba(255, 255, 255, 0.7); /* Warna latar belakang konten */
+.navbar .fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+.navbar-text img{
+    height: 2.1rem;
+    width: 2.1rem;
+    border-radius: 50%!important;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.nav-color {
+    background-color: #f88379;
+}
+
+.home-bg {
+    width: 100%;
+}
+
+#home {
+    position: relative;
+}
+
+.home-text {
+    position: absolute;
+    top: 29%;
+    left: 38%;
+    text-align: left;
+    color: white;
+}
+
+.home-photo img{
+    border-radius: 40%;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+}
+
+.home-text button {
+    background-color:#e94132 ;
+    color: white;
+    padding: 5px 5px;  
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+  }
+
+#footer {
+    background-color: #f88379;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: peachpuff;
+    text-align: center;
+    padding: 40px;
+}
+
+#about h3 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.about-photo img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.container-about {
+    background-color: peachpuff;
+    padding: 20px;
+    margin: auto;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+.about-text table {
+    margin: 0 auto;
+}
+
+
+#experience {
+    background-color: rgb(254, 196, 145) ;
+    padding: 40px;
+    text-align: center;
+}
+
+#experience h3 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#experience h6 {
+    text-decoration: underline;
+}
+
+.experiences-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.experiences-card {
+    flex: 1;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.experiences-card ul{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.experiences-card img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+#education {
+    background-color: #fa6e61;
+    padding: 40px;
+}
+
+#education h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.education-container {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.education-photo {
+    height: 150px;
+    padding: 10px;
+}
+  
+.education-text {
+    height: 100px;
+    padding: 10px;
+}
+
+.education-photo img{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
+
+.education-text h5 {
+    margin-top: 10px;
+    padding-top: auto;
+    color: white;
+}
+  
+.education-text h2 {
+    font-style: normal;
+    font-size: medium;
+    color: white;
+    font-style: italic;
+}
+
+.education-text h6 {
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+
+#skills {
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+}
+
+#skills h3 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#skills h5 {
+    font-style: italic;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: red;
+    padding-bottom: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.skills-card {
+    flex: 1;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.skills-card ul{
+    text-align: left;
+    margin-inline-start: 20px;
+    
+}
+
+#interest {
+    background-color: antiquewhite;
+    padding: 40px;
+
+}
+
+#interest h3 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.interest-container {
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     margin: 50px auto;
     max-width: 800px;
     border-radius: 10px;
 }
+
+.paragraf {
+    font-size: 15.5px;
+    transition: color 1s ease;
+}
+
+#award {
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+}
+
+#award h3 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.award-container {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
